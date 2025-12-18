@@ -9,8 +9,8 @@ for(let i=originalString.length;i>=0;i--){
     
     //console.log(originalString.charAt(i))
 }
-console.log(originalString)
-console.log(reversedString)
+console.log("originalString is "+originalString)
+console.log("reversedString is "+reversedString)
 
 
 //split string
@@ -20,11 +20,12 @@ let info="learning javascript is fun and learning it with practice is better"
 let info1="learning"
 let sm=info.split(" ")
 let count=0
-console.log(sm)
+//console.log(sm)
 for(let i=0;i<sm.length;i++){
-    console.log(sm[i])
+    //console.log(sm[i])
     if(sm[i]==info1){
         count++
     }
 }
-console.log("The word '" + info1 + "' appeared " + count + " times.")
+console.log("The sentence is '" + info + "'")
+console.log("The word '" + info1 + "' appeared " + count + " times in the sentence.")
