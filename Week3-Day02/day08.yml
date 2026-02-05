@@ -1,0 +1,24 @@
+-> Advanced Xpath
+-> Break + Break
+-> Playwrigth Locators
+
+locator("//div[@id='username_container']/input").first().fill()
+.first() -> first match
+.nth() -> index '0'-> 3 index -> nth(2)
+.last()
+
+locator("//div[@id='username_container']/input").nth(2).fill()
+
+--------------------------------------------
+Playwrigth Locators
+-> getByRole(text ,link, combox,checkbox)
+-> getByLable (label tag)
+-> getAltText-> img tag (alt="")
+
+
+xPath CW:
+https://www.redbus.in/
+From:     (//div[@class='inputWrapper___2beb80']/input)[1]    - Parent to Child relative xPath
+To:       (//div[@class='inputContainer___2d1c61']//input)[2] - Grandparent to Child relative xPath
+Search:   //button[text()='Search buses']                     - Text Based Basic xPath
+Tomorrow: //button[text()='Tomorrow']                         - Text Based Basic xPath
